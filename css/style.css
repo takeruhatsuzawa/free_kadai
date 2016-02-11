@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+body{
+    font-size:100%;
+    font-family: sans-serif;
+}
+
+
+/*---------------------
+common classes
+----------------------*/
+.inner{
+    width:960px;
+    margin:0 auto;    
+}
+
+.text-center{
+    text-align:center;
+}
+.text-right{
+    text-align:right;
+}
+
+/*グローバルナビ*/
+.global_Nav{
+    margin-top:20px;
+}
+
+.nav_item{
+    float:left;
+    padding:15px 0;
+    width:190px;
+    text-align:center;
+    font-size:14px;
+    border-right:solid 1px #4d4d4d;
+    line-height:1.5;
+}
+
+.nav_item:first-child{
+    border-left:solid 1px #4d4d4d;
+}
+
+.nav_item.none{
+    border:none;
+}
+
+.nav_item:last-child{
+    border:solid 1px #4d4d4d;
+    padding:26px 0;
+}
+
+.main img{
+    padding-top:10px;
+}
+
+.contents-box{
+    text-align:center;
+    padding:30px;
+}
+
+.contents-heading{
+    padding: 20px 0;
+    background-color: #ffd61a;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 870px;
+}
+
+.section-title  {
+    font-size:20px;
+    margin-bottom:20px;
+    color:#fff;
+}
+
+.news-list{
+    width:400px;
+    margin:0 auto;
+    padding:20px 0 22px;
+    text-align: left;
+    line-height: 2.0;
+}
+
+
+/*form css*/ 
+
+.form-heading{
+    position:relative;
+    margin-top:60px;
+    padding: 40px 0;
+    background-color: #ffd61a;
+    }
+
+.form-table{
+    font-size:20px;
+    width:500px;
+    height:300px;
+    margin-top:20px;
+    padding-top:20px;
+    }
+
+
+.form-table-tr{
+    font-size:20px;
+}
+
+td{
+    font-size:18px;
+    width:230px;
+}
+
+th{
+    font-size:18px;
+    width:100px;
+    text-align:left;
+    font-weight: normal;
+}
+
+.btn{
+    text-align:center;
+    padding-bottom:20px;
+}
+
+input#submit_button {
+    padding: 15px 60px;
+    font-size: 1.2em;
+    background-color: darkorange;
+    color: #fff;
+    border-style: none;
+    border-radius:5px;
+
+}
