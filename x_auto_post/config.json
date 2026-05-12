@@ -3,6 +3,8 @@
   "style": "登山愛好者向けの体験談を交えた親しみやすい文体。リアルな山の魅力や苦労・感動を伝える",
   "max_chars": 120,
   "hashtags": ["#登山", "#山活", "#ハイキング"],
+  "generate_count": 3,
   "past_posts_count": 10,
-  "post_hour": 7
+  "generate_hour": 8,
+  "post_hour": 12
 }
