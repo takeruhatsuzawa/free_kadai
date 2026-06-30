@@ -1,198 +1,252 @@
-# 人事領域における生成AI活用 動向レポート(2026年6月版)
+# 人事領域における生成AI活用 動向レポート(2026年6月版 第2回)
 
 調査観点: ①人材育成・研修分野での生成AI活用、②労務・制度設計や社内問い合わせ対応での生成AI活用
-調査日: 2026-06-09
+初版: 2026-06-09 / 更新: 2026-06-30
 
 ---
 
 ## 1. 全体サマリー
 
-- 『日本の人事部』「人事白書2025」調査では、人事部門の約7割が業務で生成AIを活用していると回答(未活用は33.5%)。用途トップは「議事録・会議の要約」(43.1%)、「チャットボットでの質問対応」(26.0%)、「従業員向け通知・メール作成」(20.6%)、「教育・研修コンテンツ作成」(19.5%)の順。[1]
-- パーソル総合研究所の2026年2月調査(正規雇用者3,000名)では、生成AI活用により業務時間が平均週26.4分(▲16.7%)削減。管理職(課長級58.3%・部長級62.0%)は一般社員(35.5%)より活用率が高い。[2]
-- Gartnerの調査では、HRリーダーの「生成AI導入の高度な段階」到達率は2023年の19%から2025年1月時点で61%に急増。82%が今後12か月でエージェント型AI導入を計画。[3]
-- SHRM「2025 Talent Trends」調査では、HR業務での生成AI活用率が2024年の26%から2025年に43%へ上昇。[4]
+### 国内統計
 
-国内では大企業による全社的な生成AI基盤の整備(ChatGPT Enterprise、Microsoft Copilot等の全社導入)が先行し、その上で人事領域固有のユースケース(社内問い合わせ対応、研修、人事異動・評価支援)への展開が進む、という二段構えの動きが顕著。
+- 『日本の人事部』「人事白書2025」: 人事部門の約7割が業務で生成AIを活用(未活用は33.5%)。用途トップは「議事録・会議の要約」(43.1%)、「チャットボットでの質問対応」(26.0%)、「教育・研修コンテンツ作成」(19.5%)。[1]
+- パーソル総合研究所(2026年2月): 生成AI活用で業務時間が平均週26.4分(▲16.7%)削減。ただし実際に業務時間を削減できたのは利用者の約25%のみ。就業者の業務での生成AI利用率は32.4%(約1,840万人)。[2]
+- アデコ調査(2025年12月): 就業者の65.1%が業務で生成AIを活用。66.7%が「業務効率・質ともに向上」。2026年は79.8%が活用意向。[3]
+- PwC Japan(2026年): 日本企業の生成AI活用・推進度87%(前回+11pt)。「期待以上の効果を創出」は6カ国中最下位。[4]
+- 経団連「HR部門におけるAI活用報告書」(2026年4月): 調査対象75社の9割超がAIを活用。活用領域は採用(25社)>労務管理(22社)>エンゲージメントサーベイ(21社)>人材育成(20社)。[5]
+
+### 海外統計
+
+- Gartner(2025年1月): HRリーダーの「生成AI導入の高度な段階」到達率は2023年の19%→2025年61%に急増。82%が今後12か月でエージェント型AI導入を計画。[6]
+- Gartner(2025年10月): HRリーダーの88%が「AIからまだ具体的価値を実感できていない」。採用率と実効のギャップが課題。[7]
+- SHRM「State of AI in HR 2026」(1,908名): HR業務でのAI活用率は2024年26%→2025年43%へ上昇。採用領域が最も浸透(27%)。[8]
+- BCG(2026年1月): 企業は2026年にAI投資を倍増、投資の30%以上をAIエージェントへ充当計画。CEOの90%が「AIエージェントは2026年に定量的な成果を生む」と回答。[9]
+- ADP調査(2025年12月): 大企業CHRO調査で48%がすでにエージェンティックAIを採用済み。80%が「5年以内に人間とAIエージェントが協働する職場になる」と予測。[10]
 
 ---
 
 ## 2. 人材育成・研修分野での生成AI活用
 
-### 2-1. ロールプレイ・トレーニング(AIアバター/対話型シミュレーション)
+### 2-1. AIロールプレイ・トレーニング(最新動向)
 
-国内では特に営業・接客・カスタマーハラスメント対応の研修分野で、AIアバターが顧客役・上司役を演じて練習し、AIが評価・フィードバックする仕組みの導入が急速に進んでいる。
+AIアバターとのロールプレイ型研修が急拡大。2025年後半〜2026年は「スクリプトなしのフリーフォーム対話」「AIによる定量評価・フィードバック」が標準機能になりつつある。
 
-- **住友生命保険**は2025年4月、エクサウィザーズと共同開発した新人営業職員向けAIロールプレイングシステムの運用を開始。話法練習をAIが自動評価し、表情・話し方を録画で客観的に確認できる(入社5年後在籍率40%が目標)。2026年1月にはレベルアップ版を運用開始。[5][6]
-- **ナレッジワーク**は2025年11月、AIアバターが顧客役を演じる「AI営業ロープレ」を提供開始。商談後に定量・定性評価とアドバイスを提示する。[7]
-- **Sapeet**の「カルティ ロープレ」は2025年3月、カスタマーハラスメント対応研修向けにAIアバターが脅迫・暴言・居座り等のシナリオを再現する機能を提供開始。同年8月には生成AIで対話シナリオを自動作成する機能を追加。マーケットエンタープライズでの導入では人材教育にかかる時間を30%以上削減。[8][9][10]
-- **AVITA「アバトレ」**を導入したCyberACEでは、新規広告営業の提案化率が前期比160%に向上、マネージャーの指導工数を月約16時間削減。[11]
+- **NTTドコモ**: 2025年10月、全国2,048店舗にAIロールプレイングを本格展開。育成担当者の稼働を年間60時間削減と試算。[11]
+- **住友生命×エクサウィザーズ**: 2026年1月、台本なしの生成AIフリーフォーム対話ロープレにレベルアップ。ニーズ深掘り・次回アポ取得まで一連流れをトレーニング可能に。[12]
+- **Sansan**: 2025年1月、有価証券報告書からAIが顧客役プロフィールを自動生成する「AI営業ロールプレイング」を追加費用なしで提供開始。[13]
+- **ナレッジワーク**: 2025年11月、AIアバターが顧客役を演じる「AI営業ロープレ」を提供開始。商談後に定量・定性評価とアドバイスを提示。[14]
+- **Sapeet「カルティロープレ」**: 2025年3月にカスタマーハラスメント対応研修版を提供開始、8月に生成AIによるシナリオ自動作成機能を追加。マーケットエンタープライズでは人材教育時間30%以上削減。[15][16][17]
+- **Allego「Live Dialog Simulator」**: 2025年6月に発表。32言語・71音声対応、スクリプト不要の映像AIロープレ。[18]
+- **AVITA「アバトレ」**: CyberACEで新規広告営業の提案化率前期比160%向上、マネージャーの指導工数を月約16時間削減。[19]
 
-### 2-2. 研修コンテンツ作成(マニュアル・eラーニング教材)
+### 2-2. 研修コンテンツ自動生成
 
-- **スタディスト「Teachme AI」**は動画から多言語マニュアルを自動生成する機能を提供。字幕生成・編集が従来の約2時間から15分程度に短縮(20言語対応、作業削減効果80%以上)。2025年3月の機能アップデートではマニュアルのドラフト作成・校正・要約も自動化され、2026年3月にはAI機能がオプションから標準搭載へ移行する方針。[12][13][14]
+- **スタディスト「Teachme AI」**: 動画から多言語マニュアルを自動生成。字幕生成が従来の約2時間→15分に短縮(作業削減80%以上)。2025年3月に機能強化、2026年3月にAI機能を標準搭載化。[20]
+- **Synthesia「AI in L&D Report 2026」**: L&Dチームの87%がAI活用済み。用途は音声生成(63%)、コンテンツ・クイズ草稿作成(60%)、動画制作(52%)。[21]
+- **キリンHD×AVILEN**: 生成AI研修をグループ約600名に導入し月2,200時間削減を達成。450件超の活用事例を蓄積。[22]
+- **Coursera×OpenAI**: 2025年10月、ChatGPT内で全10,500コースを直接参照可能にする提携を発表。[23]
 
 ### 2-3. スキル分析・パーソナライズ学習
 
-- リクルートマネジメントソリューションズの調査では、従業員の45.5%が「生成AIを現在の仕事に役立つ学びに使う」と回答。同社はベルシステム24の就業前研修施設に、生成AIによる自動応答ロールプレイング研修アプリを導入。[15][16]
-- **Schoo for Business**は、従業員の学習履歴・業務データに基づきリアルタイムでパーソナライズした教材を生成する機能を提供。[17]
-
-### 2-4. 海外動向
-
-- **Cornerstone**は2025年のHR Techで、SkyHiveのスキルインテリジェンスエンジン(1日40TB超の労働市場データ、5万1千以上のスキルを2.5億件の職務にマッピング)を統合した次世代AIプラットフォーム「Cornerstone Galaxy」を発表。Learner/Admin/Content各領域のAIエージェントが学習をパーソナライズする。同年秋にはSimplilearnと提携し、生成AI・プロンプトエンジニアリング等のコースを拡充。[18][19]
-- **SAP SuccessFactors**は会話型AI「Joule」を研修・パフォーマンス管理・人材配置に展開。2025年11月には初のJoule Agent「Performance and Goals Agent」が一般提供開始され、マネージャーの評価準備時間を最大50%、フォローアップ作業を最大80%削減。[20]
-- **Degreed**は新プラットフォーム「Maestro Studio」で、学習者のスキルプロファイルに基づきパーソナライズ提案を行うAIコーチ「Maestro」とアダプティブ評価機能を提供。[21]
-- **Udemy Business**は2024年10月、コース内容に関する質問に24時間対応するAIチューター機能をリリース。[22]
+- **NTTデータグループ**: 2025年10月時点で「実践的生成AI人財」7万人以上が研修修了。2027年度末までに全グローバル社員約20万人へ拡大予定。[24]
+- **SHRM調査**: L&Dチームの79%がすでにAIを学習戦略に組み込み済み(うち65%はコンテンツ生成からスタート)。AIファーストな学習組織は財務目標達成が6倍、生産性7倍(Josh Bersin調査)。[25][26]
+- **LinkedIn Learning**: AI Skill Pathwaysが24言語・150以上のパスで提供。AIリテラシーは2025年の最大急成長スキル。LinkedIn Learning顧客は非顧客比でAIスキル開発の年間成長率が98%高い。[27]
+- **Cornerstone Galaxy**: SkyHiveのスキルインテリジェンスエンジン(1日40TB超の労働市場データ、5.1万スキルを2.5億件の職務にマッピング)を統合。AIエージェントが学習をパーソナライズ。[28]
+- **生成AI×L&D市場**: 2025年の10.1億ドルから2026年に13.6億ドルへ成長予測(CAGR 34.8%)。2030年には44.2億ドル規模見込み。[29]
+- **Deloitte 2026年HRテック予測**: AIが個人の動機に基づく学習ジャーニーを設計する段階へ。「人間的動機づけ」がAI設計の鍵に。[30]
 
 ---
 
 ## 3. 労務・制度設計・社内問い合わせ対応での生成AI活用
 
-### 3-1. 社内HRヘルプデスク・QAボット事例
+### 3-1. 国内社内HRヘルプデスク・QAボット(最新事例)
 
-定型的な問い合わせ(就業規則・給与・勤怠・福利厚生)をRAG型生成AIで自動応答させる動きが、国内外で最も普及が進んでいる領域。
+RAG型生成AIによる社内問い合わせ自動化が急速に普及。特に大企業での導入が加速している。
 
-- **SmartHR「AIアシスタント」**は2025年7月にリリース。就業規則・マニュアル等(PDF/Word/Excel/OCR含む)を学習させ、従業員からの人事労務に関する質問にチャットで24時間自動回答。2025年8月の1か月間の社内実証実験(従業員約1,500名対象)では回答成功率82%、問い合わせ対応を全体で約10%、総務・情シスでは約20%削減。当初86件だった文書を200件以上に拡充して精度向上を図った。[23][24]
-- **大和ハウス工業**は2023年9月、PKSHA Workplaceの自然言語処理技術を活用した「AIヘルプデスク」をMicrosoft Teams上で運用開始。給与・勤怠・福利厚生に対象を絞り約350件のFAQを作成し、約3,000人に展開。[25][26]
-- **PKSHA Technology**は2025年8月、「PKSHA AIヘルプデスク」に複数AIエージェントが連携する「マルチエージェント」機能を追加。パーソルワークスデザインでは平均解決時間69%減・解決率20%向上、北國銀行でも属人化していた問い合わせ対応のナレッジ共有を効率化。パーソルキャリアも人事・法務・総務等の問い合わせ対応に導入。[27][28][29][30]
-- **いわき市**(職員約3,000名)では月1,000件超寄せられる就業規則等の問い合わせに対し、生成AI型チャットボット「OfficeBot」を導入し職員の自己解決を促進(2026年最新事例)。[31]
-- **ホクト**はAIチャットボット「hitTO」でFAQの70%を自動応答化。初期投資200万円・月額10万円という比較的低コストで導入。[32]
-- **Helpfeel**導入企業では、従業員約4,600人対応の「コンシェルジュデスク」で導入後1か月で問い合わせ件数が約25%減少。検索ヒット率50%向上・no hit率32%減の事例も。[33]
+- **SmartHR「AIアシスタント」**: 2025年7月に正式リリース。就業規則・マニュアル等(PDF/Word/Excel/OCR対応)を学習させ24時間自動回答。社内実証実験(1,500名・1か月)では回答成功率82%、問い合わせ全体▲10%・総務/情シスで▲20%削減。2025年8月には年末調整へのAI-OCR・自動回答機能も追加。[31][32][33]
+- **みずほフィナンシャルグループ×PKSHA**: 2024年12月、グループ約50,000名を対象に人事関連の照会対応(月1万件超)にPKSHA AIヘルプデスクを導入。[34]
+- **日立製作所×PKSHA**: 2025年12月、国内事業所の従業員約26,000名を対象にPKSHA AIヘルプデスクのドキュメント検索機能を追加導入。自動回答率70%を目標とし、人事・労務・福利から採用まで対象を拡張予定。[35]
+- **パーソルキャリア×PKSHA**: 2025年8月、人事・法務・情シス・総務等の問い合わせ対応に導入。問い合わせの半数以上を自動化目標。[36]
+- **大和ハウス工業×PKSHA**: 2023年9月よりMicrosoft Teams上でAIヘルプデスクを運用。給与・勤怠・福利厚生を中心に約350件のFAQを整備し約3,000名に展開。[37]
+- **PKSHA AIヘルプデスク**: 2025年8月にマルチエージェント機能を追加。パーソルワークスデザインでは平均解決時間▲69%・解決率+20%向上、800社以上に導入。[38]
+- **OfficeBot後継「OfficeAI社員」**: 2026年3月6日に正式リリース。マルチエージェントシステムで業務を自律遂行する問い合わせ対応AI。[39]
+- **HRBrain AIチャットボット**: 累計4,000社以上が導入。ChatGPT APIを活用してFAQの質問パターンを自動生成する機能を搭載。[40]
+- **Helpfeel**: 2025年8月に26億円を調達(累計59億円)し「AIナレッジデータプラットフォーム」へ進化。700サイト超に拡大、問い合わせ削減64%以上、継続率99%。[41]
+- **JAPAN AI HR**: 2025年11月、採用〜HR問い合わせまで一気通貫で支援するAIエージェントプラットフォームを提供開始。[42]
 
-### 3-2. 海外の社内HRヘルプデスク事例
+### 3-2. 海外社内HRヘルプデスク事例
 
-- **IBM「AskHR」**はwatsonx Orchestrateを統合し、年間210万件超の従業員問い合わせに対応。LLMが質問を分類し福利厚生・給与・キャリア領域に自動振り分け。タスク処理速度は従来比75%向上、問い合わせの90%を人手を介さず解決、管理職利用率99%、過去4年でHR運用コストを40%削減。[34]
-- **Moderna**はOpenAIと提携しChatGPT Enterpriseを全社導入、2025年半ばまでに3,000以上のカスタムGPTを開発。「Ask HR」を窓口に、自己評価の要約・福利厚生資格判定・職位レベリング支援などジュニアアナリスト業務をHR特化型GPTが代替。[35]
-- **Lattice**は2025年初頭、給与・福利厚生・規程に関する定型質問に社内文書から自動回答するAIエージェントを展開。離職兆候(エンゲージメント低下)を検知してマネージャーにコーチング提案も行う。[36]
-- **Glean**はHR領域で新入社員のオンボーディング期間を30〜40%短縮、コンプライアンスチームの社内規程関連問い合わせを50%削減と報告(2025年12月時点でARR2億ドル)。[37]
-- Microsoft社内の「Ask HR」ボット(Copilot Studio上に構築)は福利厚生・IT設定・給与のFAQに回答し、HRへの問い合わせ件数削減に活用。Microsoftは「承認済みHRポリシー文書のみを学習させ、50〜100名のパイロットで30日展開する」という社内導入手法を公開している。[38]
+- **IBM「AskHR」**: 年間210万件超の従業員問い合わせに対応。タスク処理速度▲75%向上、問い合わせの90%を無人解決、過去4年でHR運用コスト▲40%削減。[43]
+- **Microsoft社内**: Employee Self-Service Agentを2025年11月に全社(30万人超・103か国)展開。年間40〜60万件のHR問い合わせをセルフサービス化、月次HRチケットを44%削減目標。導入後は正確な回答確率+25%、チケット生成▲49%。[44]
+- **Moderna**: ChatGPT Enterpriseで「Ask HR」を運用。自己評価の要約・福利厚生資格判定・職位レベリング支援をHR特化型GPTが代替。[45]
+- **Lattice**: 2025年初頭、社内規程に関するFAQに自動回答するAIエージェントを展開。離職兆候検知でマネージャーにコーチング提案も。[46]
+- **Glean**: オンボーディング期間▲30〜40%短縮、社内規程関連問い合わせ▲50%削減と報告(2025年末ARR2億ドル)。[47]
 
 ### 3-3. 人事制度設計支援(評価・異動・報酬)
 
-- **NEC**はタレントマネジメントシステム上で生成AIを活用し、従業員のスキル・キャリアパスに適した人事異動案を提案。**明治安田生命保険**は2024年度までに内勤社員約1万人を対象にAIを活用した人事異動を実施する方針。[39][40]
-- **三井住友フィナンシャルグループ/三井住友銀行**は2025年8月、社長の思考・発言パターンを再現する「AI-CEO」(OpenAI最先端モデル基盤)を全行員約3万人に提供開始し、法人提案・企画書の壁打ちに活用。AI上司「AI-Boss」も試験運用予定。さらに社内規程・通達・マニュアル約130万件を学習させた検索機能で1人当たり月約8時間の労働時間削減を目指す。[41][42]
-- **みずほ証券**の社内文書検索システム「MOAIサーチ」は社内ルール検索・問い合わせ業務時間を最大約6割(1人当たり月約340分)削減。[43]
-- **Microsoft Copilot for HR**は年末評価で自己評価の自動生成(OneNote・メール・レポートから文脈収集)、賃上げ交渉スクリプト作成、ピアフィードバックの文言調整を支援。標準化により評価のばらつき軽減や非ネイティブ・若手の不利緩和に寄与する一方、AIが日付・実績を誤認するリスクも指摘されている。[44]
-- 国内専門家の解説でも「生成AIは評価制度の一次案作成に有効だが、公平性・法令適合性・賃金制度との整合性はAIだけでは担保できず、専門家チェックとの併用が新たな標準」との指摘がある。[45]
+- **パナソニックHD「AI Career Supporter」**: 150超の職種情報とAIを使った採用マッチングツールを開発。NPS +18→+42に向上。[48]
+- **三井住友銀行「AI-CEO」**: 2025年8月に全行員約3万人に提供開始。社長の思考・発言パターンを再現し法人提案・企画書の壁打ちに活用。社内規程・通達・マニュアル約130万件を学習した検索機能で月約8時間削減目標。[49]
+- **富士通「Enterprise AI Factory」**: 2026年1月、業務特化AI内製化基盤を提供開始。同5月には自己進化マルチAIエージェント技術を発表(平均28pt精度向上)。[50][51]
+- **Microsoft Copilot for HR**: 年末評価で自己評価の自動生成・賃上げ交渉スクリプト作成・ピアフィードバック文言調整を支援。一方でAIによる日付・実績の誤認リスクも指摘。[52]
 
-### 3-4. 海外の規制・ガイドライン動向
+### 3-4. 主要HRプラットフォームのAIエージェント(2025〜2026年リリース)
 
-人事領域でのAI活用拡大に伴い、各国で雇用判断へのAI利用に関する規制整備が進行中。
+各社が「コパイロット→スーパーエージェント」へとシフトし、大量のAIエージェントを相次いでリリース。
 
-- **EU AI Act**: 2025年2月発効。職場での「感情認識AI」を採用面接・評価に使うことを「容認できないリスク」として全面禁止。採用・選考・求人ターゲティング・候補者評価・勤務監視・解雇判断は「高リスクAI」に分類され、雇用分野を含む高リスクシステムの全面義務化は2026年8月、一部は2027年12月から適用。違反時は最大1,500万ユーロまたは全世界売上高3%(高リスク)、禁止行為は最大3,500万ユーロまたは7%の制裁金。[46][47]
-- **米国EEOC**: 2025年1月、新政権の方針転換でAIと職場差別に関するガイダンスが一旦削除されるなど、連邦レベルの方針は流動的。雇用主は既存の連邦・州・地方法の遵守義務を維持。[48]
-- **米国コロラド州AI法**: 2024年5月成立、当初は「重要な雇用判断」に関わる高リスクAIへのリスク管理・影響評価義務を規定。施行延期や連邦裁判所による執行差止めを経て、2026年5月成立のSB189で施行を2027年1月へ再延期し、義務範囲を通知・人間による再審査・記録保持中心の枠組みに縮小。[49]
-- 労働組合側の動きとして、米国ILA(国際港湾労働組合)は2025年の労使協定で「完全自動化」技術導入を禁止する条項を盛り込み、新技術導入には組合合意・仲裁を必須化。米国では従業員の90%がアルゴリズム管理(勤怠・行動監視)の対象となっている一方、29%が監視に不快感を示すとの報告もある。[50][51]
-
----
-
-## 4. 主要ツール・サービスの生成AI機能(2025年の主なアップデート)
-
-| ツール | 生成AI機能・最新動向 | 時期 |
+| プラットフォーム | 最新AIエージェント | 時期 |
 |---|---|---|
-| Microsoft 365 Copilot | 「従業員セルフサービスエージェント」追加。福利厚生・給与照会、休暇申請、IT機器申請をAIが一元対応。マイクロソフト社内利用で人事関連回答の精度が25%向上。 | 2025年1月 |
-| SmartHR | 「AIアシスタント」リリース。就業規則等を学習し従業員問い合わせに24時間自動応答。 | 2025年7月 |
-| カオナビ | 人材データ(評価・面談記録)を生成AIで要約する機能、離職リスク等のインサイト発見機能を追加。 | 2025年2月・5月 |
-| HRBrain | 問い合わせ履歴・文書を解析しFAQを自動生成する機能を搭載。 | 2025年4月時点 |
-| freee人事労務 | 「AIシフト管理」(勤務パターン・希望からシフト自動作成)、AI年末調整アシスト、AI勤怠チェッカーなど「統合flow×AI」構想を発表。 | 2025年5月 |
-| Workday Illuminate | HR・財務領域に350以上のAI関連アップデート。Business Process Copilot Agent、Case Agent(問い合わせ対応自動化)等のAIエージェント群を拡張。 | 2025年9月 |
-| SAP SuccessFactors | 会話型AI「Joule」、初のJoule Agent「Performance and Goals Agent」一般提供開始。Career and Talent Development Agent等4つの新エージェント追加。 | 2025年10〜11月 |
-| Oracle Fusion Cloud HCM | 100以上のAIエージェントを提供。Team Sync Advisor、Talent Advisor、Manager Concierge、Job Discovery等の新エージェントを追加(追加料金なし)。 | 2025年9月 |
-| PKSHA AIヘルプデスク | 複数AIエージェントが連携する「マルチエージェント」機能を追加。 | 2025年8月 |
+| **Workday Illuminate** | Business Process Copilot Agent, Case Agent, Employee Sentiment Agent, Performance Agent等7つの新エージェントを追加。Sana Self-Service AgentをM365 Copilotに統合(GA) | 2025年9月 / 2026年5月 |
+| **Workday×Sana Labs** | AIチューター・ナレッジエージェント機能を統合するためSana Labsを約11億ドルで買収 | 2025年9月 |
+| **SAP SuccessFactors** | Career & Talent Development Agent, HR Service Agent, People Intelligence Agent, Payroll Agent等15の新Joule Agentを追加。「Autonomous HCM」戦略でJoule Assistants 13本が2026年6月にGA | 2025年10月 / 2026年5〜6月 |
+| **Oracle Fusion HCM** | Job Discovery Agent, Job Fit Advisor, Talent Advisor, Learning Tutor Agent等13の新AIエージェントを追加(追加費用なし) | 2025年9月 |
+| **ADP** | ADP Assist AI Agents正式ローンチ(42百万人分の給与データ基盤)、AIエージェントマーケットプレイスを公開 | 2026年1月〜3月 |
 
 ---
 
-## 5. 導入効果の定量データまとめ
+## 4. 規制・ガイドライン動向(最新)
+
+### EU AI Act
+
+- **2025年2月2日施行**: 感情認識システムの職場利用を全面禁止(採用面接・評価への利用も対象)。
+- **2025年8月2日**: 汎用AI(LLM等)事業者への透明性・データ文書化義務が発効。
+- **2026年5〜6月「AI Omnibus」**: 採用・昇進・解雇等に関わる雇用向け高リスクAIへの完全義務化が当初の2026年8月から**2027年12月2日に延期**。欧州議会・EU理事会が2026年6月に正式採択。[53]
+- 違反時の制裁金: 最大1,500万ユーロまたは全世界売上の3%(高リスク義務違反)。
+
+### 米国州規制(急速に整備中)
+
+| 州 | 内容 | 施行日 |
+|---|---|---|
+| **カリフォルニア州** | 採用・解雇・昇進等のADS(自動意思決定システム)が保護対象属性に基づく差別をしないよう義務付け。4年間データ保存義務。 | 2025年10月1日 |
+| **イリノイ州(HB 3773)** | 採用・解雇・研修選抜等でのAI利用を求職者・従業員に通知義務(AI製品名・収集データ等を平易な言語で提示)。イリノイ州外の雇用主が州居住者を採用する場合も適用。 | 2026年1月1日 |
+| **コロラド州** | 包括的AI雇用法をSB 26-189で改定・縮小。施行を2027年1月へ延期。 | (2027年以降) |
+| **ニューヨーク市** | 採用・昇進に用いるAEDT(自動雇用判断ツール)の年次独立バイアス監査を義務化(先行モデル)。 | 施行済み |
+
+- **米国EEOC(2025年9月)**: 格差的影響(disparate impact)のみを根拠とする差別申立て調査を中止。故意の差別案件に限定する方針へ転換。AI採用ツールは2024年だけで3,000万件超の選考を処理。[54]
+- **HR AIスタートアップへの資金調達**: 2025年H1だけで30億ドル超(前年比+60%増)。Rippling(Series G 4.5億ドル)、Ashby(Series D 5,000万ドル)など。[55]
+
+---
+
+## 5. 導入効果の定量データまとめ(更新版)
 
 | 企業・サービス | 効果指標 |
 |---|---|
 | LINEヤフー | 人事総務領域で月間約1,600時間以上の工数削減見込み(2026年春までに10ツール展開) |
-| 三井不動産 | ChatGPT Enterprise導入3か月で約500件のカスタムGPTが稼働、業務削減時間10%以上を目標 |
-| パーソル総研調査 | 生成AI活用で業務時間が平均週26.4分(▲16.7%)削減 |
-| SmartHR AIアシスタント | 問い合わせ対応 全体で約10%減、総務・情シスで約20%減、回答成功率82% |
-| みずほ証券 MOAIサーチ | 社内ルール検索・問い合わせ業務時間を最大約6割削減(1人月約340分) |
-| 三井住友FG 社内検索 | 1人当たり月約8時間の労働時間削減目標 |
-| IBM AskHR | 年間210万件超対応、処理速度75%向上、90%を無人解決、HR運用コスト40%削減(過去4年) |
-| Glean | オンボーディング期間30〜40%短縮、社内規程関連問い合わせ50%削減 |
-| パーソルワークスデザイン(PKSHA) | 平均解決時間69%減、解決率20%向上 |
-| Helpfeel導入企業 | 導入1か月で問い合わせ件数約25%減 |
-| ナレッジワーク/Sapeetロープレ導入企業 | 人材教育時間30%以上削減、提案化率160%向上(CyberACE) |
+| パナソニックHD | 採用AIでNPS +18→+42に向上 |
+| SmartHR AIアシスタント | 問い合わせ全体▲10%、総務・情シス▲20%減、回答成功率82% |
+| みずほ証券 MOAIサーチ | 社内ルール検索・問い合わせ業務時間を最大約60%削減(1人月約340分) |
+| 三井住友FG 社内検索 | 1人当たり月約8時間削減目標 |
+| パーソルワークスデザイン(PKSHA) | 平均解決時間▲69%、解決率+20%向上 |
+| Helpfeel | 問い合わせ削減64%以上、契約継続率99% |
+| IBM AskHR | 210万件/年対応、処理速度+75%向上、90%を無人解決、HR運用コスト▲40%(過去4年) |
+| Microsoft社内 | Employee Self-Service Agent:月次HRチケット▲44%削減目標、チケット生成▲49% |
+| Glean | オンボーディング期間▲30〜40%短縮、社内規程問い合わせ▲50%削減 |
+| NTTドコモ | AI営業ロープレで育成担当者年間60時間削減 |
+| キリンHD×AVILEN | 生成AI研修で月2,200時間削減(450件超の活用事例蓄積) |
+| パーソル総研調査全般 | 生成AI活用で業務時間が平均週26.4分(▲16.7%)削減 |
 
 ---
 
-## 6. 課題・留意点
+## 6. 課題・留意点(最新)
 
-1. **回答精度とナレッジメンテナンス**: SmartHRの実証実験でも回答成功率は82%にとどまり、社内規程文書の継続的な追加・更新がボトルネックになりやすい。[24]
-2. **評価・異動など人に関わる重要判断への適用範囲**: Microsoft Copilotの評価支援では、AIによる日付・実績の誤認が報酬交渉トラブルにつながるリスクが指摘されている。日本の専門家も「AIは一次案作成まで、最終判断は専門家チェックとセットで」という運用が標準になりつつあると指摘。[44][45]
-3. **規制対応**: EU AI Actでは採用・評価・解雇など雇用関連のAI活用が「高リスク」に分類され、2026年以降に本格的な義務化が進む。米国も州ごとに規制動向が大きく異なり、グローバル企業は地域別のコンプライアンス対応が必要。[46][47][49]
-4. **労働組合・従業員の受容**: AIによる勤怠・行動監視への不快感(米国で29%)や、労組による自動化制限条項の交渉など、導入プロセスでの労使対話の重要性が増している。[50][51]
+1. **実効ギャップ**: Gartner調査でHRリーダーの88%が「まだ具体的価値を実感できていない」と回答。採用率の高さに対してビジネス効果実感が追いついていない。パーソル調査でも削減効果が出たのは利用者の約25%のみ。
+2. **回答精度とナレッジメンテナンス**: SmartHRの実証実験でも回答成功率は82%にとどまり、社内規程文書の継続的な追加・更新がボトルネックになりやすい。
+3. **規制対応の複雑化**: EU AI Actは雇用向け高リスクAI義務を2027年末まで延期したが、米国では州ごとに規制が急増。グローバル企業は地域別コンプライアンス対応が必要。
+4. **評価・人事判断へのAI適用範囲**: Microsoft Copilotの評価支援ではAIによる誤認リスクが報酬交渉トラブルにつながる可能性。日本の専門家も「最終判断は専門家チェックとセット」が標準と指摘。
+5. **労使関係**: AIによる監視・自動化への労働組合の抵抗(米国ILAが協定でAI全面自動化を禁止条項化)、従業員の不快感(米国就業者の29%)など、導入における労使対話の重要性が増大。
 
 ---
 
-## 7. 出典一覧
+## 7. 主要ツール一覧(2025〜2026年)
+
+| カテゴリ | ツール・サービス | 主な特徴 |
+|---|---|---|
+| **HRヘルプデスク(国内)** | SmartHR AIアシスタント | 就業規則等から問い合わせに自動応答、AI-OCR対応 |
+| | PKSHA AIヘルプデスク | マルチエージェント対応、800社以上導入 |
+| | OfficeAI社員(旧OfficeBot) | 自律型マルチエージェントシステム |
+| | Helpfeel | AIナレッジデータプラットフォームへ進化 |
+| | Glean | エンタープライズ知識検索AI |
+| **AIロープレ(国内)** | Sapeet カルティロープレ | カスハラ・営業ロープレ、シナリオAI自動生成 |
+| | ナレッジワーク AI営業ロープレ | 商談後の定量・定性評価 |
+| | AIディバー(NTTドコモ採用) | 全国2,048店舗展開 |
+| | AVITA アバトレ | 接客・営業ロープレ |
+| **研修コンテンツ(国内)** | Teachme AI(スタディスト) | 動画から多言語マニュアル自動生成 |
+| **グローバルHCM** | Workday Illuminate | AIエージェント群、Sana Labs統合 |
+| | SAP SuccessFactors Joule | Autonomous HCM戦略、13本のJoule Assistants |
+| | Oracle Fusion HCM | 100以上のAIエージェント、追加費用なし |
+| | ADP Assist AI Agents | 42百万人の給与データ基盤 |
+| | Microsoft M365 Copilot | Employee Self-Service Agent |
+
+---
+
+## 8. 出典一覧
 
 1. 人事白書2025(日本の人事部) https://jinjibu.jp/article/detl/hakusho/3794/
 2. パーソル総合研究所「生成AIとはたらき方に関する実態調査」 https://rc.persol-group.co.jp/news/release-20260203-1000-1/
-3. Gartner / Conference Board "HR and the Future of Generative AI" https://www.conference-board.org/publications/HR-and-the-future-of-generative-AI
-4. SHRM 2025 Talent Trends(関連記事) https://aimconsulting.com/insights/ai-powered-chatbot-for-enterprise-case-study/
-5. 住友生命AIロープレ導入 https://hokedigi.tmj.jp/information/2025/04/23274/
-6. 住友生命AIロープレ レベルアップ版 https://saleszine.jp/news/detail/8003
-7. ナレッジワークAI営業ロープレ https://prtimes.jp/main/html/rd/p/000000098.000063428.html
-8. Sapeetカルティロープレ(カスハラ対応) https://prtimes.jp/main/html/rd/p/000000057.000026498.html
-9. Sapeetカルティロープレ新機能 https://sapeet.com/news/pressrelease_250807
-10. マーケットエンタープライズ Sapeet導入事例 https://www.marketenterprise.co.jp/news/202411197763.html
-11. AVITA「アバトレ」CyberACE事例 https://avita.co.jp/case/X39BNdc4
-12. スタディスト Teachme AI 動画マニュアル自動生成 https://studist.jp/news/pr_240612
-13. Teachme AI 機能アップデート https://studist.jp/news/pr_250325
-14. Teachme AI標準搭載化 https://workwonders.jp/media/archives/6441/
-15. リクルートMS 生成AIと学びの環境調査 https://officenomikata.jp/news/16960/
-16. リクルートMS SUDAchi事例 https://www.recruit-ms.co.jp/issue/case/0000001373/
-17. Schoo for Businessパーソナライズ教材 https://schoo.jp/biz/column/1882
-18. Cornerstone Galaxy / SkyHive統合 https://www.cornerstoneondemand.com/company/news-room/press-releases/ai-ready-workforces-start-here-the-next-evolution-of-cornerstone-galaxy-at-hr-tech-2025/
-19. Cornerstone × Simplilearn提携 https://www.cornerstoneondemand.com/resources/article/cornerstone-fall-2025-product-announcements/
-20. SAP SuccessFactors Joule Agent https://news.sap.com/2025/10/sap-successfactors-2h-2025-release-ai-skills-people-insights/
-21. Degreed Maestro Studio https://www.go1.com/blog/best-ai-solutions
-22. Udemy Business AIチューター https://gooiridblog.com/udemy-ufb/
-23. SmartHR AIアシスタント リリース https://prtimes.jp/main/html/rd/p/000000380.000015987.html
-24. SmartHR AIアシスタント 社内実証実験 https://smarthr.jp/column/explanation/2025-ai-insidecase/
-25. 大和ハウス AIヘルプデスク(PKSHA) https://www.pkshatech.com/news/20230920/
-26. 大和ハウス事例(月刊総務) https://www.g-soumu.com/articles/3cb69e96-ead5-4538-a44e-6ba48d55ed24
-27. PKSHA AIヘルプデスク マルチエージェント機能 https://www.pkshatech.com/news/20250820/
-28. パーソルキャリア PKSHA導入 https://prtimes.jp/main/html/rd/p/000000214.000022705.html
-29. パーソルワークスデザイン PKSHA効果 https://aisaas.pkshatech.com/success/persol-wd/
-30. 北國銀行 PKSHA導入 https://aisaas.pkshatech.com/success/hokkokubank/
-31. いわき市 OfficeBot導入 https://officebot.jp/case/iwaki-city/
-32. ホクト hitTO導入 https://neural-opt.com/hr-ai-cases/
-33. Helpfeel 社内FAQ事例 https://www.helpfeel.com/blog/in_house_faq
-34. IBM AskHR事例 https://www.ibm.com/case-studies/ibm-askhr
-35. Moderna ChatGPT Enterprise活用 https://www.conference-board.org/publications/HR-and-the-future-of-generative-AI
-36. Lattice AIエージェント https://www.conference-board.org/publications/HR-and-the-future-of-generative-AI
-37. Glean HR活用事例 https://www.glean.com/perspectives/what-problem-does-an-enterprise-knowledge-search-solve-for-hr-hr-teams
-38. Microsoft Copilot Policy Q&Aエージェント実装ガイド https://adoption.microsoft.com/en-us/scenario-library/human-resources/implement-self-service-policy-questions-and-updates/
-39. NEC 人事異動AI活用 https://discoverhr.en-japan.com/jinji_ai/
-40. 明治安田生命 AI人事異動方針 https://discoverhr.en-japan.com/jinji_ai/
-41. 三井住友FG「AI-CEO」提供開始 https://www.smbc.co.jp/news/pdf/j20250805_01.pdf
-42. 三井住友FG 社内文書検索AI(日経) https://www.nikkei.com/article/DGXZQOUB066990W5A001C2000000/
-43. みずほ証券「MOAIサーチ」 https://ai-keiei.shift-ai.co.jp/ai-bank-example/
-44. Microsoft Copilot 年末評価支援 https://windowsforum.com/threads/copilot-for-year-end-reviews-save-time-and-polish-your-self-evaluation.393062/
-45. 国内専門家解説(評価制度×生成AI) https://resus.jp/topics/4919/
-46. EU AI Act 感情認識AI禁止 https://www.herohunt.ai/blog/recruiting-under-the-eu-ai-act-impact-on-hiring/
-47. EU AI Actタイムライン・制裁金 https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/
-48. 米国EEOC ガイダンス動向 https://www.klgates.com/The-Changing-Landscape-of-AI-Federal-Guidance-for-Employers-Reverses-Course-with-New-Administration-1-31-2025
-49. コロラド州AI法 動向 https://www.lawandtheworkplace.com/2026/05/major-developments-put-colorados-ai-law-on-ice-ahead-of-implementation/
-50. 米国ILA労組協定/SAG-AFTRA https://www.littler.com/news-analysis/asap/labor-organizing-and-ai-employer-perspective
-51. AIによる労務監視への懸念 https://www.theemployerreport.com/2025/06/navigating-labors-response-to-ai-proactive-strategies-for-multinational-employers-across-the-atlantic/
+3. アデコ 就業者調査 https://prtimes.jp/main/html/rd/p/000001036.000001264.html
+4. PwC Japan 生成AI実態調査2026春 https://www.pwc.com/jp/ja/knowledge/thoughtleadership/generative-ai-survey2026.html
+5. 経団連「HR部門におけるAI等の活用に関する報告書」 https://www.keidanren.or.jp/policy/2026/016.pdf
+6. Gartner / Conference Board "HR and the Future of Generative AI" https://www.conference-board.org/publications/HR-and-the-future-of-generative-AI
+7. Gartner AI in HR https://www.gartner.com/en/articles/ai-in-hr
+8. SHRM State of AI in HR 2026 https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026
+9. BCG AIエージェント調査 https://prtimes.jp/main/html/rd/p/000000035.000145445.html
+10. ADP CHRO調査 https://www.adp.com/spark/articles/2025/12/key-hr-technology-trends-for-2026-and-how-to-plan.aspx
+11. NTTドコモ AIロープレ全国展開 https://aidiver.jp/news/detail/76
+12. 住友生命×エクサウィザーズ レベルアップ版 https://exawizards.com/archives/31334/
+13. Sansan AI営業ロールプレイング https://prtimes.jp/main/html/rd/p/000000639.000049627.html
+14. ナレッジワーク AI営業ロープレ https://prtimes.jp/main/html/rd/p/000000098.000063428.html
+15. Sapeet カルティロープレ(カスハラ) https://prtimes.jp/main/html/rd/p/000000057.000026498.html
+16. Sapeet カルティロープレ新機能 https://sapeet.com/news/pressrelease_250807
+17. マーケットエンタープライズ Sapeet導入 https://www.marketenterprise.co.jp/news/202411197763.html
+18. Allego Live Dialog Simulator https://www.allego.com/news/allego-unveils-agentic-ai-for-sales/
+19. AVITA アバトレ CyberACE事例 https://avita.co.jp/case/X39BNdc4
+20. スタディスト Teachme AI https://studist.jp/news/pr_240612
+21. Synthesia AI in L&D Report 2026 https://webcdn.synthesia.io/reports/AI%20in%20Learning%20and%20Development%20Report%202026.pdf
+22. キリンHD×AVILEN https://enterprisezine.jp/news/detail/21483
+23. Coursera×OpenAI提携 https://investor.coursera.com/news/news-details/2025/Coursera-Partners-with-OpenAI-to-Bring-Learning-Capabilities-into-the-First-Generation-of-Apps-in-ChatGPT/default.aspx
+24. NTTデータグループ 生成AI人財育成 https://www.nttdata.com/global/ja/news/release/2025/102900/
+25. SHRM AI in L&D調査 https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report
+26. Josh Bersin AIファースト学習組織調査 https://joshbersin.com/2026/02/new-research-how-ai-transforms-400-billion-of-corporate-learning/
+27. LinkedIn Learning AI Skill Pathways https://learning.linkedin.com/resources/upskilling-and-reskilling/ai-skill-pathways
+28. Cornerstone Galaxy / SkyHive統合 https://www.cornerstoneondemand.com/company/news-room/press-releases/ai-ready-workforces-start-here-the-next-evolution-of-cornerstone-galaxy-at-hr-tech-2025/
+29. 生成AI×L&D市場調査 https://www.researchandmarkets.com/reports/6226963/generative-ai-in-learning-development-market
+30. Deloitte 2026 HRテック予測 https://action.deloitte.com/insight/4834/2026-hr-tech-predictions-human-motivators-will-shape-ai-driven-learning-journeys
+31. SmartHR AIアシスタント リリース https://prtimes.jp/main/html/rd/p/000000380.000015987.html
+32. SmartHR AIアシスタント 社内実証実験 https://smarthr.jp/column/explanation/2025-ai-insidecase/
+33. SmartHR 年末調整AI機能追加 https://smarthr.jp/release/20250828_nenmatsu-chousei/
+34. みずほFG PKSHA導入 https://prtimes.jp/main/html/rd/p/000000181.000022705.html
+35. 日立製作所 PKSHA導入 https://prtimes.jp/main/html/rd/p/000000233.000022705.html
+36. パーソルキャリア PKSHA導入 https://www.pkshatech.com/news/20250827/
+37. 大和ハウス AIヘルプデスク(PKSHA) https://www.pkshatech.com/news/20230920/
+38. PKSHA AIヘルプデスク マルチエージェント機能 https://www.pkshatech.com/news/20250820/
+39. OfficeAI社員 正式リリース https://news.neoscorp.jp/news-officebot-aiworker-launch/
+40. HRBrain AIチャットボット https://www.hrbrain.jp/assistant
+41. Helpfeel 26億円調達・AIエージェントモード https://prtimes.jp/main/html/rd/p/000000409.000027275.html
+42. JAPAN AI HR提供開始 https://japan-ai.co.jp/news/press/2025/11/251117/
+43. IBM AskHR事例 https://www.ibm.com/case-studies/ibm-askhr
+44. Microsoft Employee Self-Service Agent社内展開 https://www.microsoft.com/insidetrack/blog/accelerating-employee-services-at-microsoft-with-the-employee-self-service-agent/
+45. Moderna ChatGPT Enterprise活用 https://www.conference-board.org/publications/HR-and-the-future-of-generative-AI
+46. Lattice AIエージェント https://www.conference-board.org/publications/HR-and-the-future-of-generative-AI
+47. Glean HR活用事例 https://www.glean.com/perspectives/what-problem-does-an-enterprise-knowledge-search-solve-for-hr-hr-teams
+48. パナソニックHD AI Career Supporter https://project.nikkeibp.co.jp/HumanCapital/atcl/column/00102/052500014/
+49. 三井住友銀行 AI-CEO https://www.smbc.co.jp/news/pdf/j20250805_01.pdf
+50. 富士通 Enterprise AI Factory https://global.fujitsu/ja-jp/pr/news/2026/01/26-02
+51. 富士通 自己進化マルチAIエージェント技術 https://global.fujitsu/ja-jp/pr/news/2026/05/25-01
+52. Microsoft Copilot 年末評価支援 https://windowsforum.com/threads/copilot-for-year-end-reviews-save-time-and-polish-your-self-evaluation.393062/
+53. EU AI Act Omnibus (高リスクAI義務延期) https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/
+54. 米国EEOC方針転換 https://angelareddock-wright.com/ai-driven-hiring-bias-the-next-frontier-of-eeoc-enforcement/
+55. HR AIスタートアップ資金調達 https://news.crunchbase.com/venture/ai-hr-software-startup-funding-ma/
+56. Workday Illuminate新エージェント https://newsroom.workday.com/2025-09-16-Workday-Illuminate-TM-Expands-with-New-AI-Agents-for-HR,-Finance,-and-Industry
+57. Workday Sana Labs買収 https://siliconangle.com/2025/09/16/workday-acquires-sana-labs-1-1b-upgrade-agentic-ai-work-experiences/
+58. Workday Sana Agent×M365 Copilot統合 https://newsroom.workday.com/2026-05-13-Workday-Brings-Sana-Self-Service-Agent-for-HR-and-Finance-Into-Microsoft-365-Copilot
+59. SAP SuccessFactors Autonomous HCM戦略 https://news.sap.com/2026/05/sap-successfactors-innovations-new-era-autonomous-hcm/
+60. Oracle HCM 13の新AIエージェント https://siliconangle.com/2025/09/16/oracle-expands-fusion-hcm-13-new-ai-agents-hr-automation/
+61. ADP Assist AI Agents https://www.prnewswire.com/news-releases/adp-accelerates-ai-leadership-with-launch-of-new-ai-agents-designed-to-solve-workforce-challenges-302672772.html
+62. カリフォルニア州AI雇用規制 https://www.paulhastings.com/insights/client-alerts/new-california-regulations-on-employers-use-of-ai-to-make-decisions-go-into-effect-oct-1-2025
+63. イリノイ州HB 3773 https://www.hinshawlaw.com/en/insights/blogs/employment-law-observer/illinois-adopts-new-ai-in-employment-regulations-what-employers-need-to-know-for-2026
+64. パーソル総研 2026年人事トレンドワード「生成AIのインフラ化」 https://rc.persol-group.co.jp/thinktank/thinktank-column/trendword2026/
+65. 経団連 HR×AI報告書(詳細) https://www.keidanren.or.jp/journal/times/2026/0416_03.html
 
 ---
 
-## 8. 補足: その他の国内全社導入事例(参考)
-
-- LINEヤフー: 全従業員約11,000人にChatGPT Enterpriseを付与し生成AI活用を義務化。
-- 三井不動産: 全社員約2,000人にChatGPT Enterpriseを展開、85部門・150名の「AI推進リーダー」体制。
-- NTTデータグループ: 2024年10月から全社員向け生成AI人財育成フレームワークを整備、2025年10月時点で7万人以上が研修修了。
-- MIXI: 2025年3月にChatGPT Enterprise全社導入、週間アクティブ率80%、月間約17,600時間の業務削減効果(全社、人事領域含む)。
-- キリンHD: 新卒採用の面接プロセスにAI面接官を本格導入。
-- レバレジーズ調査: 採用担当者の約7割が書類選考の縮小・廃止を検討、約9割がAI面接導入に満足。
-
----
-
-*本レポートはWeb検索による一次情報・報道記事の要約に基づく一次調査結果です。数値・事実は出典元で再確認の上ご活用ください。次回以降、定期的に同様の調査を実施し更新版を作成することを推奨します。*
+*本レポートはWeb検索による一次情報・報道記事の要約に基づく調査結果です。数値・事実は出典元で再確認の上ご活用ください。*
+*調査実施: 初版 2026-06-09 / 更新 2026-06-30*
